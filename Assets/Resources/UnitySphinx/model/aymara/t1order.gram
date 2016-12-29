@@ -1,0 +1,19 @@
+﻿#JSGF V1.0;
+
+/**
+ * JSGF Digits Grammar file
+ */
+
+grammar digits;
+/*
+public <basicCmd> = <numbers>;
+
+<numbers> = (CH’IQA | LLÄTUNKA | AYNACHA | KUPI | PAQALLQU);
+
+*/
+
+public <command> = (<cardinals> ANATIRI <colors> <numbers> SARAM);
+
+<numbers> = (MAYA | PAYA | KIMSA | PUSI | PHISQA | SUXTA | PAQALLQU | KIMSAQALLQU | LLÄTUNKA | TUNKA);
+<cardinals> = (MAYÏRI | PAYÏRI | KIMSÏRI | PUSÏRI | PHISQÏRI | SUXTÏRI | PAQALLQÜRI | KIMSAQALLQÜRI | LLÄTUNKÏRI | TUNKÏRI);
+<colors> = (CH’IYARA | CH’UMPHI | WILA | NUWALA | Q’ILLU | CH’UXÑA | LARAMA | MURTURIYA | UQI | JANQ’U);

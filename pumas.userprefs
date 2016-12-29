@@ -1,0 +1,39 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\turnManager.cs">
+    <Files>
+      <File FileName="Assets\scripts\JachaFSM.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\moveto.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\turnManager.cs" Line="293" Column="33" />
+      <File FileName="Assets\scripts\compraManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\GameData.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\keyShop.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\gordoController.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\NotificationCenter.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\SphinxManager.cs" Line="102" Column="53" />
+      <File FileName="Assets\scripts\SphinxManager2.cs" Line="167" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pumas" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="turnManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="pumas" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

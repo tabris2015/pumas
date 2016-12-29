@@ -1,0 +1,19 @@
+﻿#JSGF V1.0;
+
+/**
+ * JSGF Digits Grammar file
+ */
+
+grammar digits;
+/*
+public <basicCmd> = <numbers>;
+
+<numbers> = (MÄ | PÄ | KIMSA | PUSI | PHISQA | SUXTA | PAQALLQU | KIMSAQALLQU | LLÄTUNKA | TUNKA);
+
+*/
+
+public <command> = /0.8/(<numbers> <type> ANATIRI <action>) | /0.9/(YUSPAJARA) | /0.8/(<type> ANATIRI) | /0.3/(QHIPÄXA);
+
+<action> = (CHURITA | CHURITA AMP SUMA | KUTIYAÑA MUNTHWA);
+<type> = (LUNQHU | TUXU);
+<numbers> = (MÄ | PÄ | KIMSA | PUSI | PHISQA | SUXTA | PAQALLQU | KIMSAQALLQU | LLÄTUNKA | TUNKA);
